@@ -1,0 +1,340 @@
+* {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    background-color: cyan;
+    color: #333;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("stock image/war-devil-anime-art-from-chainsaw-man-wallpaper-1920x1080_48.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.home {
+    position: absolute;
+    top: 40%;
+    left: 50%; /* Mengubah left ke 50% agar teks berada di tengah */
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.home h1 {
+    color: #fff;
+    font-size: 70px;
+}
+
+.home p {
+    color: #fff;
+    font-size: 25px;
+}
+
+/* Hapus .large-profile */
+
+.profile {
+    text-align: center; /* Tambahkan properti ini */
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.9); /* Latar belakang putih transparan */
+    border-radius: 10px; /* Bulatkan sudut */
+    max-width: 600px; /* Batasi lebar konten agar lebih mudah dibaca */
+    margin: 0 auto; /* Tengahkan konten */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+}
+
+.profile h3 {
+    font-size: 40px;
+}
+
+.profile p {
+    color: #333333;
+    font-size: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+}
+
+.profile-image img {
+    width: 300px; /* Sesuaikan ukuran gambar dengan preferensi Anda */
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+    margin-bottom: 20px; /* Jarak antara gambar dan teks */
+}
+
+.profile h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Jarak antara judul dan teks di bawahnya */
+}
+
+.profile p {
+    font-size: 18px;
+    margin-bottom: 8px; /* Jarak antara paragraf-paragraf */
+}
+/* style.css */
+
+/* ... kode CSS sebelumnya ... */
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ubah menjadi min-height agar container selalu setinggi viewport */
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    padding: 20px; /* Ubah margin menjadi padding */
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.large-profile {
+    flex: 1;
+    padding: 20px; /* Ubah margin menjadi padding */
+}
+
+.large-profile img {
+    width: 100%; /* Pastikan gambar selalu mengisi lebar kontainer */
+    max-width: 300px; /* Sesuaikan dengan ukuran gambar Anda */
+    display: block; /* Hilangkan whitespace di bawah gambar */
+    margin-right: 20px; /* Tambahkan margin kanan untuk jarak dari teks */
+}
+
+.about {
+    flex: 2; /* Beri lebih banyak ruang untuk teks */
+    padding: 20px; /* Ubah margin menjadi padding */
+    text-align: left; /* Aligment teks menjadi kiri */
+}
+
+.about h3 {
+    font-size: 24px; /* Ubah ukuran font */
+    margin-bottom: 10px; /* Beri jarak ke bawah */
+}
+
+.about p {
+    font-size: 18px; /* Ubah ukuran font */
+    margin-bottom: 10px; /* Beri jarak ke bawah */
+    line-height: 1.5; /* Spasi baris lebih besar */
+}
+
+/* ... kode CSS lainnya ... */
+/* style.css */
+
+/* ... Kode CSS sebelumnya ... */
+
+
+.pariwisata {
+    text-align: center;
+    padding: 90px;
+    padding-left: 130px;
+    padding-right: 100px;
+    background-color: #fff;
+    line-height: 3;
+}
+
+.pariwisata h2 {
+    font-size: 50px;
+    margin-bottom: 30px; /* Tambahkan margin ke bawah untuk jarak dengan gambar */
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-around; /* Menyusun gambar secara horizontal dengan jarak yang merata */
+    flex-wrap: wrap; /* Bungkus gambar ke baris baru jika melebihi lebar container */
+}
+
+.img {
+    flex: 0 0 calc(33.33% - 20px); /* Membagi tiga kolom dan menambahkan margin antara gambar */
+    margin: 10px; /* Tambahkan margin di sekitar gambar */
+    overflow: hidden; /* Membatasi gambar yang melebihi kotak */
+}
+
+.img img {
+    width: 100%; /* Gambar mengisi seluruh kotak */
+    transition: transform 0.3s; /* Efek perubahan ukuran saat hover */
+}
+
+.img:hover img {
+    transform: scale(1.1); /* Perbesar gambar saat hover */
+}
+
+/* style.css */
+
+/* ... Kode CSS sebelumnya ... */
+
+.kontak {
+    text-align: center;
+    padding: 70px;
+    background-color: rgba(255, 255, 255, 0.9); /* Latar belakang putih transparan */
+    line-height: 2;
+}
+
+.kontak h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #333; /* Warna teks utama (hitam) */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+/* Menambahkan style untuk ikon media sosial */
+.icon-container {
+    width: 80px;
+    height: 80px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.icon-container i {
+    font-size: 30px;
+}
+
+.icon-container:hover {
+    background-color: #555; /* Warna latar belakang saat hover */
+}
+
+.icon-text {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555; /* Warna teks saat hover */
+}
+
+.icon-text-facebook {
+    color: #1877f2;
+}
+
+.icon-text-twitter {
+    color: #1da1f2;
+}
+
+.icon-text-instagram {
+    color: #e4405f;
+}
+
+/* ... Kode CSS lainnya ... */
+
+/* style.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: cyan;
+    color: #333;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("stock image/war-devil-anime-art-from-chainsaw-man-wallpaper-1920x1080_48.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.gallery {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    max-width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.gallery h2 {
+    font-size: 30px;
+}
+
+.gallery p {
+    color: #333;
+    font-size: 18px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Rasio 16:9 untuk video */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

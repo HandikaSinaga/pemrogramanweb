@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=content-width, initial-scale=1">
+    <title>Handika Sinaga Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        // Function to handle the redirection to the transaction page
+        function redirectToTransaction(tourismSpot) {
+            // You can customize the URL to the transaction page and pass data if needed
+            window.location.href = 'transaction.html?spot=' + encodeURIComponent(tourismSpot);
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="pariwisata.html">Pariwisata</a></li>
+                <li><a href="hotel.html">Hotel</a></li>
+                <li><a href="gallery.html">Video</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="center-container">
+        <div class="about-container">
+            <div class="pariwisata">
+        <h2>Rekomendasi Tempat Pariwisata di Samosir</h2>
+        <body>
+            <table cellspacing="2" cellpadding="2" border="1" width="90%" align="center">
+                <tr>
+                    <th width="15%" align="center">Gambar </th>
+                    <th width="16%">Nama</th>
+                    <th width="39%" align="center">Deskripsi</th>
+                    <th width="39%" align="center">
+                        <font color="blue" face="Arial" size="4">Booking Sekarang</font>
+                    </th>
+                </tr>
+        <tr>
+            <td width="10%" align="center"><img src="gambar/bukitholbung.jpg" width="300"></td>
+            <td align="center">Bukit Holbung</td>
+            <td>Bukit Holbung memiliki nama lain Bukit Teletubbies. Hamparan rumput di atas
+                bukit akan menambah keindahan panorama Danau Toba.
+                Sore hari menjadi waktu terbaik untuk berkunjung ke objek wisata ini. Pasalnya,
+                dari tempat ini pengunjung bisa menyaksikan matahari terbenam
+            </td>
+            <td align="center">
+                <button onclick="redirectToTransaction('Bukit Holbung')">Transaksi</button>
+            </td>
+        </tr>
+        <tr>
+            <td width="10%" align="center"><img src="gambar/menaraptele.jpg" width="300"></td>
+            <td align="center">Menara Pandang Tele</td>
+            <td>Menikmati panorama Danau Toba dari ketinggian menjadi hal yang patut
+                dicoba saat berkunjung ke Samosir. Salah satu tempat terbaik untuk melihat
+                pemandangan tersebut adalah Menara Pandang Tele.
+
+                Menara Pandang Tele memiliki tiga lantai yang semuanya dapat diakses oleh
+                pengunjung.
+                Di lantai paling atas pengunjung bisa melihat barisan bukit, pemukiman warga,
+                persawahan, air terjun, dan Danau Toba.
+
+            </td>
+            <td align="center">
+                <button onclick="redirectToTransaction('Menara Pandang Tele Holbung')">Transaksi</button>
+            </td>
+        </tr>
+        <tr>
+            <td width="10%" align="center"><img src="gambar/efrata.jpg" width="300"></td>
+            <td align="center"> Air Terjun Efrata </td>
+            <td>Air Terjun Efrata terletak di Sosor Dolok, Harian, Kabupaten Samosir, Sumatera
+                Utara. Lokasinya diapit oleh dua bukit.
+                Tempat wisata ini bisa dijangkau dengan kendaraan roda dua dan roda empat.
+                Air terjun tersebut berair jernih dengan ketinggian sekitar 20 meter. Untuk
+                dapat menyaksikan keindahan air terjun ini, pegunjung perlu berjalan sekitar
+                100 meter dari area parkir.
+                Selain air terjun, pengunjung juga bisa menikmati panorama persawahan milik
+                penduduk setempat.
+            </td>
+            <td align="center">
+                <button onclick="redirectToTransaction('Air Terjun Efrata')">Transaksi</button>
+            </td>
+        </tr>
+        <tr>
+            <td width="10%" align="center"><img src="gambar/sibea.jpg" width="300"></td>
+            <td align="center"> Bukit Sibea-bea</td>
+            <td>Tak hanya wisata alam, di Samosir juga bisa dijumpai obyek wisata religi, yaitu
+                Bukit Sibea-bea.
+                Sebab, bukit itu merupakan tempat didirikannya patung Yesus Kristus yang
+                proses pembangunannya masih berjalan. 
+                Di sana, selain menemukan patung Yesus Kristus di bukit, ada pula rumah doa
+                dan restoran.
+                Selain menjadi tempat wisata religi, Bukit Sibea-bea juga menyuguhkan
+                pemandangan Danau Toba dari ketinggian. 
+                Dikutip Kompas.com dari Tribun Travel, (26/12/2021), untuk mencapai ke Bukit
+                Sibea-bea, kita perlu mencapai jarak sekitar 177 kilometer (km) dari Kota
+                Medan, atau sekitar empat hingga lima jam perjalanan.
+            </td>
+            <td align="center">
+                <button onclick="redirectToTransaction('Bukit Sibea-bea')">Transaksi</button>
+            </td>
+        </tr>
+        <tr>
+            <td width="10%" align="center"><img src="gambar/museumbatak.jpg" width="300"></td>
+            <td align="center">Museum Batak Tomok</td>
+            <td>Museum Batak Tomok merupakan objek wisata yang terletak di Komplek TB
+                Silalahi Center, Desa Tomok, Kecamatan Simanindo, Kabupaten Samosir,
+                Sumatera Utara.
+                Bangunan museum ini berbentuk rumah tradisional tempat tinggal Suku Batak
+                atau yang biasa disebut Ruma Bolon.
+                Dinding bangunan museum dipenuhi dengan ukiran khas berwarna merah,
+                putih, dan hitam.
+                Ketiga warna dominan tersebut dianggap memiliki arti spiritual tersendiri bagi
+                masyarakat Suku Batak. Tak hanya itu, ukiran cecak yang ada di dindingnya
+                juga memiliki makna pelindung.
+                Pengunjung dapat menyaksikan beragam peninggalan leluhur suku Batak Toba
+                dari Samosir di Museum Batak Tomok ini.
+            </td>
+            <td align="center">
+                <button onclick="redirectToTransaction('Museum Batak Toba')">Transaksi</button>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=content-width, initial-scale=1">
+    <title>Handika Sinaga Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        // Function to handle the redirection to the transaction page
+        function redirectToTransaction(tourismSpot) {
+            // You can customize the URL to the transaction page and pass data if needed
+            window.location.href = 'transaction.html?spot=' + encodeURIComponent(tourismSpot);
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="pariwisata.html">Pariwisata</a></li>
+                <li><a href="hotel.html">Hotel</a></li>
+                <li><a href="gallery.html">Video</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="center-container">
+        <div class="about-container">
+            <div class="Hotel">
+        <h2>Rekomendasi Hotel terbaik di Samosir</h2>
+        <body>
+            <table cellspacing="2" cellpadding="2" border="1" width="90%" align="center">
+                <tr>
+                    <th width="15%" align="center">Gambar </th>
+                    <th width="16%">Nama</th>
+                    <th width="39%" align="center">Deskripsi</th>
+                    <th width="39%" align="center">
+                        <font color="blue" face="Arial" size="4">Booking Sekarang</font>
+                    </th>
+                </tr>
+        <tr>
+            <td width="10%" align="center"><img src="gambar/zoe.png" width="300"></td>
+            <td align="center">Hotel Zoe`s Paradise Waterfront</td>
+            <td>Hotel ini berada di Tuk Tuk. Zoé`s Paradise Waterfront Hotel adalah tempat penginapan yang nyaman dan bersih. 
+                Tempat ini juga menawarkan beragam fasilitas lengkap yang memuaskan tamu. 
+                Di antaranya, hotel Zoe’s Paradise menyediakan Wi-Fi gratis di semua area, teras berjemur dan kolam renang, restoran dan juga taman. Harganya mulai dari Rp500 ribuan ke atas.
+            </td>
+            <td align="center">
+                <button onclick="redirectToTransaction('Hotel Zoe`s Paradise Waterfront')">Transaksi</button>
+            </td>
+        </tr>
+        <tr>
+            <td width="10%" align="center"><img src="gambar/mas.jpg" width="300"></td>
+            <td align="center">Mas Cottages</td>
+            <td>Mas Cottages sangat dekat dengan Danau Toba. Letaknya 3 meter dari Danau Toba. 
+                Tepatnya Jalan Lingkar Tuktuk Toba, Tuktuk Siadong, Simanindo, Kabupaten Samosir. 
+                Dekat sekali, bukan? Tentunya ini adalah salah satu keuntungan yang bisa dinikmati dari Mas Cottages. 
+                Hotel ini juga unik karena memiliki eksterior bergaya tradisional Batak dan kamar-kamar yang sederhana. 
+                Kamu bisa merogoh kocek Rp500 ribuan.
+            </td>
+            <td align="center">
+                <button onclick="redirectToTransaction('Mas Cottages')">Transaksi</button>
+            </td>
+        </tr>
+        <tr>
+            <td width="10%" align="center"><img src="gambar/oyo.jpg" width="300"></td>
+            <td align="center"> OYO 3202 Hans Homestay </td>
+            <td>OYO 3202 Hans Homestay terletak di Jalan Lingkar Tuktuk Toba, Tuktuk Siadong, Simanindo, Kabupaten Samosir. 
+                Ini adalah hotel bintang 2 yang melayani tamu hingga 24 jam. 
+                Di dalamnya ada fasilitas berupa dapur bersama dan Wi-Fi gratis. 
+                Kamu bisa merogoh kocek Rp300 ribuan untuk menginap di sini.
+            </td>
+            <td align="center">
+                <button onclick="redirectToTransaction('OYO 3202 Hans Homestay')">Transaksi</button>
+            </td>
+        </tr>
+        <tr>
+            <td width="10%" align="center"><img src="gambar/toba.jpeg" width="300"></td>
+            <td align="center"> Toba Beach Hotel</td>
+            <td>Toba Beach Hotel adalah hotel bintang tiga yang terletak di Tomok, Pulau Samosir. Tepatnya Jalan Pangambatan Desa Tomok Samosir. 
+                Hotel ini memiliki kamar berdesain modern dan fasilitas yang mampu membuat liburan Anda semakin sempurna. Lokasinya strategis dan fasilitas yang ditawarkan sangatlah memuaskan.
+                Selain itu, hotel ini memiliki pemandanganlangsung Danau Toba yang indah. Toba Beach Hotel menerapkan prosedur kebersihan yang ketat. Kamu harus merogoh kocek Rp500 ribuan.
+            </td>
+            <td align="center">
+                <button onclick="redirectToTransaction('Toba Beach Hotel')">Transaksi</button>
+            </td>
+        </tr>
+        <tr>
+            <td width="10%" align="center"><img src="gambar/romlan.jpg" width="300"></td>
+            <td align="center">Romlan Guest House</td>
+            <td>Hotel ini direkomendasikan karena bersih, murah, dan makanannya enak, langsung lompat ke kolam renang dan pemiliknya juga sangat baik. 
+                Lokasinya di Jalan Lingkar Tuktuk Toba, Tuktuk Siadong, Simanindo, Kabupaten Samosir. 
+                Faktanya, sebagian besar orang yang tinggal di sini adalah kulit putih atau pasangan karena tidak memiliki fasilitas untuk anak-anak. 
+                Harga saat ini sekitar Rp 120 ribu sampai dengan Rp150 ribu.
+            </td>
+            <td align="center">
+                <button onclick="redirectToTransaction('Romlan Guest House')">Transaksi</button>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
